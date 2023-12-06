@@ -1,0 +1,28 @@
+body {
+    background-color: #FAF863;
+}
+nav {
+    background-color: #FAF863;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    margin-right: auto; 
+}
+.liste {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.liste li {
+    margin: 0 70px; 
+}
+
+
+
+/* .liste a {
+    text-decoration: none;
+    color: #000; 
+} */
