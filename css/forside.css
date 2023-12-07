@@ -71,6 +71,17 @@ p{
     margin-left: 10%;
 }
 
+a{
+    border-radius: 30%;
+    color: white;
+    background-color: black;
+    padding: 0.8em;
+    border: solid white 1px;
+    text-decoration: none;
+    margin: 1em;
+
+}
+
 /********Andet********/
 
 .logo_forside{
