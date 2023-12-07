@@ -20,6 +20,80 @@ nav {
     margin: 0 70px; 
 }
 
+.vinglas {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Adjust the height of the container as needed */
+}
+
+.font {
+    width: 350px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+.grid_1-1 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.drikke-pynt {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+.pynt {
+    width: 800px;
+    height: auto;
+}
+
+.menu {
+display: flex;
+}
+
+.fadøl,
+.fadølpriser {
+    margin-top: 45px;
+    flex: 1;
+   margin-left: 65px;
+}
+
+.flaskeøl
+ {
+    margin-top: 45px;
+    flex: 1;
+    margin-left: 255px;
+}
+.flaskeølpriser {
+    margin-top: 45px;
+    flex: 1;
+    margin-left: 113px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 
 /* .liste a {
