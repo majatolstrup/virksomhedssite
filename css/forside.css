@@ -9,7 +9,7 @@ body {
   max-width: 1512px;
 }
 
-footer{
+footer {
   background-color: rgba(34, 33, 33, 1);
   display: flex;
   padding-bottom: 10%;
@@ -19,7 +19,7 @@ footer{
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
-  font-size: 90px;
+  font-size: 4vw;
   text-align: center;
   padding: 4rem;
 }
@@ -27,7 +27,7 @@ h1 {
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
-  font-size: 35px;
+  font-size: 2vw;
 }
 
 .p2 {
@@ -110,7 +110,8 @@ ul {
 }
 
 .knapper a {
-  border: solid white 1px;
+  border: solid white 3px;
+  font-size: x-large;
 }
 
 /********Andet********/
@@ -132,7 +133,6 @@ ul {
 }
 
 .knapper_forside {
-  margin-left: 50%;
   display: flex;
 }
 
@@ -192,15 +192,16 @@ ul {
   color: rgba(18, 18, 18, 1);
   background-color: rgba(250, 248, 99, 1);
   padding: 0.8em;
-  border: solid rgba(18, 18, 18, 1) 1px;
+  border: solid rgba(18, 18, 18, 1) 3px;
   text-decoration: none;
   margin: 1em;
+  font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .btn_position {
-  margin-left: -305%;
-  padding-top: 500%;
+  padding-top: 250%;
+  margin-left: -18rem;
 }
 
 .billede_lamper {
@@ -238,9 +239,10 @@ ul {
   grid-column-end: 2;
   max-width: 85px;
   padding: 0.8em;
-  border: solid rgba(0, 72, 232, 1);
+  border: solid rgba(0, 72, 232, 1) 3px;
   background-color: rgba(255, 247, 215, 1);
   color: rgba(0, 72, 232, 1);
+  font-size: x-large;
 }
 
 .om_os {
@@ -251,9 +253,9 @@ ul {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
-
 .om_os_position {
-  padding-top: 500%;
+  padding-left: 8rem;
+  padding-top: 45rem;
 }
 
 .om_os2 {
@@ -293,11 +295,12 @@ ul {
   color: rgba(64, 67, 64, 1);
   background-color: rgba(255, 247, 215, 1);
   padding: 0.8em;
-  border: solid rgba(64, 67, 64, 1) 1px;
+  border: solid rgba(64, 67, 64, 1) 3px;
   text-decoration: none;
   margin: 1em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-left: 50%;
+  font-size: x-large;
 }
 
 .overskrift_insta {
@@ -305,16 +308,20 @@ ul {
   margin-left: 28%;
 }
 
-.aabningstider{
+.aabningstider {
   max-width: 312px;
   margin-left: 10%;
 }
 
-.adresse{
+.adresse {
   max-width: 266px;
   margin-left: 20%;
 }
 
-.beige{
+.beige {
   color: rgba(228, 221, 211, 1);
+}
+
+.smiley_position{
+  margin-left: 12%;
 }
