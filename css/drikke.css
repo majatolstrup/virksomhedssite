@@ -29,12 +29,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; /* Adjust the height of the container as needed */
+    height: 10vh;
 }
 
 .font {
-    width: 350px; /* Adjust the width of the image */
-    height: auto; /* Maintain the aspect ratio */
+    width: 350px;
+    height: auto; 
 }
 
 
@@ -43,7 +43,12 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    justify-content: center;
+    align-items: flex-start;
 }
+.grid_1-1 div {
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
 
 .drikke-pynt {
     margin-top: 40px;
@@ -81,20 +86,45 @@ display: flex;
 }
 
 
+.espresso {
+    width: 150px;
+}
+
+
+.grid_1-1-1 {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* position: relative; */
+}
+
+.container {
+    text-align: center;
+  }
+  
+ 
+  h3 {
+    margin-bottom: 10px;
+  }
+
 h1 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik Bubbles' , sans serif;
+    font-size: 2rem
 }
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+.cursiv {
+    font-family: 'Ephesis' , sans serif;
+    color: red;
+}
 
 /* .liste a {
     text-decoration: none;
