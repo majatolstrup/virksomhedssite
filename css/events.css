@@ -1,0 +1,73 @@
+/****generelt****/
+
+header{
+    background-color: rgba(18, 18, 18, 1);
+}
+
+body{
+    background-color: rgba(18, 18, 18, 1);
+} 
+
+footer{
+    background-color: #222121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+    font-size: 85px;
+    text-align: center;
+    padding: 2rem; 
+    
+  }
+
+ .grid_1_2{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+ }
+
+ hr{
+    background-color: #FFF7D7;
+    width: 463px;
+    height: 1px;
+ }
+
+ .hr_position{
+    padding-top: 1%;
+ }
+
+ .
+
+/***div***/
+
+.imgdjpulp{
+    width: 200%;
+    height: auto;
+}
+
+.textevents{
+    background-color: #222121;
+}
+
+.programside{
+    background-color: #C5418E;
+}
+
+.billede_runding{
+    border-radius: 20%;
+}
