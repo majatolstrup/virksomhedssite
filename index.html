@@ -8,7 +8,21 @@
   </head>
   <body>
     <header>
-      <img src="img/logo-forside.png" alt="logo-forside" />
+      <div>
+        <a href="index.html"
+          ><img src="img/logo-forside.png" alt="logo-forside"
+        /></a>
+      </div>
+
+      <nav class="nav a">
+        <ul class="header_position">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="drikkevarer.html">Drikkevarer</a></li>
+          <li><a href="omos.html">Om Os</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section>
@@ -26,14 +40,16 @@
 
         <h1>LEGENDARISK CAFÈ I HJERTET AF KØBENHAVN</h1>
 
-        <div class="knapper_forside">
-          <ul>
-            <a href="events.html">Events</a>
-            <a href="kontakt.html">kontakt</a>
-            <a href="menu.html">Menu</a>
-            <a href="Drikkevarer.html">Drikkevarer</a>
-            <a href="omos.html">Om Os</a>
-          </ul>
+        <div class="knapper_forside, knapper">
+          <nav>
+            <ul>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="kontakt.html">kontakt</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="Drikkevarer.html">Drikkevarer</a></li>
+              <li><a href="omos.html">Om Os</a></li>
+            </ul>
+          </nav>
         </div>
 
         <p class="paragraf_forside">
@@ -43,50 +59,77 @@
         </p>
 
         <div class="billeder_bund_forside">
-            <img src="img/laver_mad3.webp" alt="mad">
-            <img src="img/mad_platte.webp" alt="mad på fad">
-            <img src="img/mad2.webp" alt="maad">
+          <img src="img/laver_mad3.webp" alt="mad" />
+          <img src="img/mad_platte.webp" alt="mad på fad" />
+          <img src="img/mad2.webp" alt="maad" />
         </div>
 
         <div class="menu_forside">
-            <h1 class="overskrift_menu">“LÆKRE GASTRONOMISKE OPLEVELSER”</h1>
-            <p class="paragraf_menu">Kom og oplev vores unikke menusammensætning, der med garanti indeholder noget til en hver smag!</p>
-            <img src="img/mad_platte_lodret.webp" alt="madpalette" class="billede_runding">
+          <h1 class="overskrift_menu">“LÆKRE GASTRONOMISKE OPLEVELSER”</h1>
+          <p class="paragraf_menu">
+            Kom og oplev vores unikke menusammensætning, der med garanti
+            indeholder noget til en hver smag!
+          </p>
+          <img
+            src="img/mad_platte_lodret.webp"
+            alt="madpalette"
+            class="billede_runding"
+          />
         </div>
 
         <section class="drikkevarer_forside">
-            <h1 class="h12">SLUK TØRSTEN...</h1>
-            <p class="paragraf_drikkevarer, p2">
-                Vi har et kæmpe udvalg af drikkevarer, kolde såvel som varme.</p>
-            <div class="billede_lamper2">
-            <img src="img/glas_bar_closeup.webp" alt="lamper" class="billede_lamper">
-            </div>
-            <button class="btn_drik">Drikkevarer</button>
+          <h1 class="h12">SLUK TØRSTEN...</h1>
+          <p class="paragraf_drikkevarer, p2">
+            Vi har et kæmpe udvalg af drikkevarer, kolde såvel som varme.
+          </p>
+          <div class="billede_lamper2">
+            <img
+              src="img/glas_bar_closeup.webp"
+              alt="lamper"
+              class="billede_lamper"
+            />
+          </div>
+          <div class="btn_position">
+            <a href="drikkevarer.html" class="drikkevarer_knap">Drikkevarer</a>
+          </div>
         </section>
 
         <section class="om_os">
-            <h1 class="h13">BANKERÅT</h1>
-            <p class="p3">Med kærlig respekt for den nostalgiske atmosfære og kulturelle sjæl, vil Bankeråt dele events, musikalske oplevelser, kunst, kultur, kram, lækre retter på menuen, drikkevarer for enhver smag og ikke mindst masser af hjerterum med alle der besøger den hyggelige café, placeret på Ahlefeldtsgade i København.</p>
-            <div class="billede_placering">
-                <img src="img/om_os.webp" alt="billede af restaurant" class="billede_runding1">
-            </div>
-            <div>
-            <button class="btn_om_os">Om Os</button>
-            </div>
+          <h1 class="h13">BANKERÅT</h1>
+          <p class="p3">
+            Med kærlig respekt for den nostalgiske atmosfære og kulturelle sjæl,
+            vil Bankeråt dele events, musikalske oplevelser, kunst, kultur,
+            kram, lækre retter på menuen, drikkevarer for enhver smag og ikke
+            mindst masser af hjerterum med alle der besøger den hyggelige café,
+            placeret på Ahlefeldtsgade i København.
+          </p>
+          <div class="billede_placering">
+            <img
+              src="img/om_os.webp"
+              alt="billede af restaurant"
+              class="billede_runding1"
+            />
+          </div>
+          <div class="om_os_position">
+            <a href="omos.html" class="om_os_btn">Om Os</a>
+          </div>
         </section>
 
         <section class="om_os2">
-        <hr class="max_width">
-        <h1 class="h14">BOOK BORD</h1>
-        <p class="paragraf_book_bord">Bordreservation op til 10 mennesker automatisk bekræftiget. Er I over 10, vil vi kontakte jer</p>
+          <hr class="max_width" />
+          <h1 class="h14">BOOK BORD</h1>
+          <p class="paragraf_book_bord">
+            Bordreservation op til 10 mennesker automatisk bekræftiget. Er I
+            over 10, vil vi kontakte jer
+          </p>
 
-        <div class="btn_laes_mere">
-            <button>Læs Mere</button>
-        </div>
+          <div class="btn_laes_mere a">
+            <a href="omos.html">Læs Mere</a>
+          </div>
         </section>
 
         <section>
-            <h1 class="overskrift_insta">FØLG OS PÅ INSTAGRAM</h1>
+          <h1 class="overskrift_insta">FØLG OS PÅ INSTAGRAM</h1>
         </section>
 
         "https://www.instagram.com/bankeraatofficial/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
