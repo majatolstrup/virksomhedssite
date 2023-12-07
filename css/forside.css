@@ -76,7 +76,7 @@ p {
 a {
   border-radius: 30%;
   color: white;
-  background-color: black;
+  background-color: rgba(18, 18, 18, 1);
   padding: 0.8em;
   text-decoration: none;
   margin: 1em;
