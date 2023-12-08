@@ -70,9 +70,9 @@ p{
     
   }
 
- .grid_1_2{
+ .grid_1_1{
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
  }
 
  hr{
@@ -92,8 +92,20 @@ p{
 
 .programside{
     background-color: #C5418E;
+    margin: 3em 1em;
 }
 
 .billede_runding{
     border-radius: 20%;
+}
+
+.center{
+    text-align: center;
+}
+
+.programknap{   
+    border: solid rgba(255, 247, 215, 1);
+    background-color: #C5418E;
+    color: rgba(255, 247, 215, 1);
+    font-size: x-large;
 }
