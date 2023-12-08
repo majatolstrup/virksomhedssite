@@ -61,6 +61,12 @@ nav {
 .grid_1-1 div {
     margin: 0 10px; /* Adjust the margin as needed */
   }
+  dt {
+    margin-top: 30px;
+    font-family:'Rubik Bubbles' , sans serif; ;
+  }
+  
+  
 
 .drikke-pynt {
     margin-top: 40px;
