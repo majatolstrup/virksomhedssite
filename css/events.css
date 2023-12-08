@@ -102,3 +102,10 @@ p{
 .center{
     text-align: center;
 }
+
+.programknap{   
+    border: solid rgba(255, 247, 215, 1);
+    background-color: #C5418E;
+    color: rgba(255, 247, 215, 1);
+    font-size: x-large;
+}

@@ -41,7 +41,7 @@ header {
   }
   
 body{
-    background-color: #C5418E 
+    background-color: #C5418E ;
 } 
 
 footer{
@@ -78,3 +78,13 @@ p{
     padding: 2rem; 
     
   }
+
+  .grid_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em 5em;
+ }
+
+ img{
+    max-width: 100%;
+ }
