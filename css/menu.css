@@ -4,18 +4,16 @@ body {
 main {
   background-color: #e64025;
   padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 5%;
+  margin: 2%;
 }
 header {
-  background-color: rgba(18, 18, 18, 1);
+  background-color: #e64025;
   display: flex;
 }
+
 a {
   border-radius: 30%;
-  color: white;
-  background-color: black;
+  color: #fff7d7;
   padding: 0.8em;
   text-decoration: none;
   margin: 1em;
@@ -23,14 +21,26 @@ a {
 }
 
 .nav a {
-  color: white;
-  background-color: rgba(18, 18, 18, 1);
+  color: #fff7d7;
+  background-color: #e64025;
   padding: 0.8em;
   text-decoration: none;
   margin: 1em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   align-items: center;
 }
+
+.header_position {
+  padding-top: 2.5%;
+  align-items: center;
+}
+footer {
+  background-color: rgba(34, 33, 33, 1);
+  display: flex;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
 ul {
   display: flex;
 }
@@ -47,8 +57,8 @@ img {
 }
 h1,
 h2 {
-  color: #f8f7f7;
-  text-align: center;
+  color: #fff7d7;
+  margin-left: 5%;
 }
 
 dl {
@@ -68,6 +78,11 @@ ul,
 dl {
   padding: 0;
   list-style-type: none;
+  color: #fff7d7;
+}
+
+dd {
+  color: #fff7d7;
 }
 
 li {
@@ -84,21 +99,27 @@ li {
   width: 40%;
 }
 
+hr {
+  margin: 2em 0;
+  border: none;
+  border-top: 2px dotted #fff7d7;
+}
+
 /* Styling for the prices */
 .prices {
   font-weight: bold;
-  color: #faf2f1;
+  color: #fff7d7;
 }
 
 /* Add responsive styling for small screens */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   main {
     padding: 10px;
   }
-}
+} */
 
 .morgenmad {
-  text-align: center;
+  margin-left: 5%;
 }
 
 .menumadret {
@@ -121,13 +142,16 @@ li {
   font-weight: bold;
   color: #faf2f1;
 }
-.frokost {
+.grid_1-1 {
   display: grid;
-  grid-template-columns: 2 (repeat(1));
+  grid-template-columns: 1fr 1fr;
 }
-.smor {
+/* .smor,
+.salat {
   grid-column: 1/2;
 }
-.sand {
+.sand,
+.tand {
   grid-column: 2/3;
 }
+ */
