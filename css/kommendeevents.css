@@ -29,6 +29,11 @@ header {
   
   ul {
     display: flex;
+    text-decoration: none;
+  }
+
+  li{
+    list-style-type: none;
   }
   
   .knapper a {
@@ -38,3 +43,38 @@ header {
 body{
     background-color: #C5418E 
 } 
+
+footer{
+    background-color: #222121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+    font-size: 85px;
+    text-align: center;
+    padding: 2rem; 
+    
+  }
