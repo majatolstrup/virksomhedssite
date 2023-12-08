@@ -63,10 +63,9 @@ nav {
   }
   dt {
     margin-top: 30px;
-    font-family:'Rubik Bubbles' , sans serif; ;
+    font-family:'Rubik Bubbles' , sans serif;
+    /* color: red; */
   }
-  
-  
 
 .drikke-pynt {
     margin-top: 40px;
@@ -128,7 +127,6 @@ display: flex;
     width: 150px;
 }
 
-
 .grid_1-1-1 {
     margin-top: 45px;
     display: grid;
@@ -186,6 +184,25 @@ display: flex;
     margin: 0 auto;
     margin-left: 450px;
   }
+
+  .grid_1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1%;
+    margin: 0 auto;
+    margin-left: 250px;
+  }
+  #farvepris {
+    color: #E1B629;
+    font: bold;
+  }
+  #avec {
+    background-image: url(../img/SVG/merepynt3.svg);
+    background-repeat: no-repeat;
+    background-size: 1.5%;
+    background-position: 50%;
+    position: relative;
+  }
 /* .grid_1-2 div {
     font-size: 1.5rem;
 } */
@@ -216,12 +233,12 @@ h3 {
 
 h1 {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 h2 {
     /* font-family: 'Rubik Bubbles' , sans serif; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Rubik Bubbles' , sans serif;
     /* font-size: 2rem */
 }
 
@@ -237,9 +254,9 @@ p {
     /* color: red; */
 }
 
-/* .liste a {
+.liste a {
     text-decoration: none;
-    color: #000; 
-} */
+    color: black; 
+}
 
 }
