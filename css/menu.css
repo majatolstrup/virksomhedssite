@@ -1,0 +1,133 @@
+body {
+  background-color: #e64025;
+}
+main {
+  background-color: #e64025;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 5%;
+}
+header {
+  background-color: rgba(18, 18, 18, 1);
+  display: flex;
+}
+a {
+  border-radius: 30%;
+  color: white;
+  background-color: black;
+  padding: 0.8em;
+  text-decoration: none;
+  margin: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav a {
+  color: white;
+  background-color: rgba(18, 18, 18, 1);
+  padding: 0.8em;
+  text-decoration: none;
+  margin: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+
+.header_position {
+  padding-top: 2.5%;
+  align-items: center;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  align-items: center;
+}
+h1,
+h2 {
+  color: #f8f7f7;
+  text-align: center;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+dd {
+  margin: 5px 0;
+}
+
+ul,
+dl {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.billede_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu_billede {
+  width: 40%;
+}
+
+/* Styling for the prices */
+.prices {
+  font-weight: bold;
+  color: #faf2f1;
+}
+
+/* Add responsive styling for small screens */
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+}
+
+.morgenmad {
+  text-align: center;
+}
+
+.menumadret {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1px;
+  max-width: 600px;
+  margin-right: 5%;
+  margin-bottom: 0;
+  padding: 0;
+  /* Tilføj en mindre margin-bottom */
+}
+
+.venstre {
+  margin-right: autox;
+}
+
+.hoejre {
+  font-weight: bold;
+  color: #faf2f1;
+}
+.frokost {
+  display: grid;
+  grid-template-columns: 2 (repeat(1));
+}
+.smor {
+  grid-column: 1/2;
+}
+.sand {
+  grid-column: 2/3;
+}
