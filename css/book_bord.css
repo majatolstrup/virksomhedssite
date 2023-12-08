@@ -47,3 +47,34 @@ a {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
+img{
+    max-width: 100%;
+}
+
+hr{
+    background-color: #FFF7D7;
+    width: 463px;
+    height: 1px;
+ }
+
+ .hr_position{
+    padding-top: 1%;
+ }
+
+ .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF7D7;
+    font-size: 85px;
+    text-align: center;
+    padding: 2rem; 
+  }
+
+  .billede_filter{
+    filter: contrast(0);
+    filter: brightness(0);
+  }
