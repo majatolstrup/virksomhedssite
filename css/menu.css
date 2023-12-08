@@ -79,10 +79,11 @@ dl {
   padding: 0;
   list-style-type: none;
   color: #fff7d7;
+  margin-bottom: 1em;
 }
 
 dd {
-  color: #fff7d7;
+  color: rgba(34, 33, 33, 1);
 }
 
 li {
@@ -108,7 +109,7 @@ hr {
 /* Styling for the prices */
 .prices {
   font-weight: bold;
-  color: #fff7d7;
+  color: rgba(34, 33, 33, 1);
 }
 
 /* Add responsive styling for small screens */
@@ -135,16 +136,23 @@ hr {
 }
 
 .venstre {
-  margin-right: autox;
+  margin-right: auto;
+  color: #fff7d7;
 }
 
 .hoejre {
   font-weight: bold;
-  color: #faf2f1;
+  color: rgba(34, 33, 33, 1);
 }
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 6em;
+  margin-left: 5%;
+}
+
+.centreret {
+  text-align: center;
 }
 /* .smor,
 .salat {
