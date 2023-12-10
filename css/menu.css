@@ -1,3 +1,16 @@
+@font-face {
+  font-family: menuskrift;
+  src: url(../fonts/BebasNeue-Regular.woff2);
+}
+@font-face {
+  font-family: menuskrift2;
+  src: url(../fonts/IndieFlower-Regular.woff2);
+}
+@font-face {
+  font-family: menuskrift3;
+  src: url(../fonts/Itim-Regular.woff2);
+}
+
 body {
   background-color: #e64025;
 }
@@ -59,6 +72,11 @@ h1,
 h2 {
   color: #fff7d7;
   margin-left: 5%;
+  font-family: menuskrift3;
+}
+h1 {
+  text-align: center;
+  margin-right: 5%;
 }
 
 dl {
@@ -80,10 +98,12 @@ dl {
   list-style-type: none;
   color: #fff7d7;
   margin-bottom: 1em;
+  font-family: menuskrift2;
 }
 
 dd {
   color: rgba(34, 33, 33, 1);
+  font-weight: bold;
 }
 
 li {
@@ -126,9 +146,6 @@ hr {
   }
 } */
 
-.morgenmad {
-  margin-left: 5%;
-}
 .morgenmad dl {
   margin-bottom: 20px;
 }
@@ -148,12 +165,15 @@ hr {
 .venstre {
   margin-right: auto;
   color: #fff7d7;
+  font-family: menuskrift2;
 }
 
 .hoejre {
   font-weight: bold;
   color: rgba(34, 33, 33, 1);
   text-align: left;
+  font-family: menuskrift2;
+  font-weight: bold;
 }
 .grid_1-1 {
   display: grid;
@@ -172,4 +192,8 @@ hr {
   margin: 2em auto;
   width: 30%;
   opacity: 0.6;
+}
+.aftenmenu {
+  background-color: #c33520;
+  border-radius: 5px;
 }
