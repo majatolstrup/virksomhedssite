@@ -99,23 +99,29 @@ img{
   .paragraf_book_bord{
     background-color:rgba(34, 33, 33, 1);
     padding: 50px;
+    text-align: center;
   }
 
   .beige_baggrund{
     background-color: #FFF7D7;
-    padding: 20%;
   }
 
   .graa_farve{
     color: rgba(34, 33, 33, 1);
     max-width: 612px;
     line-height: 45px;
+    text-align: center;
+  }
+
+  .graa{
+    color: rgba(34, 33, 33, 1);
+    text-align: center;
   }
 
   h1 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     color: rgba(34, 33, 33, 1);
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     padding: 4rem;
   }
