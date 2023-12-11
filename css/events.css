@@ -1,4 +1,16 @@
 /****generelt****/
+@font-face {
+    font-family: menuskrift;
+    src: url(../fonts/BebasNeue-Regular.woff2);
+  }
+  @font-face {
+    font-family: menuskrift2;
+    src: url(../fonts/IndieFlower-Regular.woff2);
+  }
+  @font-face {
+    font-family: menuskrift3;
+    src: url(../fonts/Itim-Regular.woff2);
+  }
 
 header {
     background-color: rgba(18, 18, 18, 1);
@@ -48,7 +60,8 @@ footer{
     color: #FFF7D7;
 }
 p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: menuskrift2;
+    src: url(../fonts/IndieFlower-Regular.woff2); 
     color: #FFF7D7;
     font-size: 30px;
     padding-left: 20%;
@@ -109,3 +122,4 @@ p{
     color: rgba(255, 247, 215, 1);
     font-size: x-large;
 }
+
