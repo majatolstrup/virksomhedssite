@@ -30,6 +30,10 @@ p {
   font-size: 2vw;
 }
 
+img {
+  max-width: 100%;
+}
+
 .p2 {
   color: rgba(64, 67, 64, 1);
   grid-column-start: 1;
@@ -120,16 +124,22 @@ ul {
   text-align: center;
 }
 
+.grid_1-1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: rgba(34, 33, 33, 1);
+}
+
 .billeder_forside {
   display: grid;
-  grid-template-columns: auto auto;
-  width: 1512px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .paragraf_forside {
   width: 1109px;
   text-align: center;
-  margin-left: 10%;
 }
 
 .knapper_forside {
@@ -137,7 +147,7 @@ ul {
 }
 
 .billeder_bund_forside {
-  display: flex;
+  display: grid;
   background-color: rgba(34, 33, 33, 1);
   padding: 8% 0;
 }
@@ -145,8 +155,9 @@ ul {
 .menu_forside {
   background-color: rgba(230, 64, 37, 1);
   display: grid;
+  /*
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  */
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -160,10 +171,6 @@ ul {
 }
 
 .paragraf_menu {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1, 5;
-  grid-row-end: 2;
   margin-top: 65%;
   margin-left: 20%;
   max-width: 529px;
@@ -183,8 +190,7 @@ ul {
   padding-top: 20%;
   padding-bottom: 20%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .drikkevarer_knap {
@@ -199,10 +205,12 @@ ul {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+/*
 .btn_position {
   padding-top: 250%;
   margin-left: -18rem;
 }
+*/
 
 .billede_lamper {
   border-radius: 20%;
@@ -245,18 +253,21 @@ ul {
   font-size: x-large;
 }
 
+
 .om_os {
   background-color: rgba(255, 247, 215, 1);
   padding-top: 10%;
   padding-bottom: 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
 }
+
+/*
 .om_os_position {
   padding-left: 8rem;
   padding-top: 45rem;
 }
+*/
 
 .om_os2 {
   background-color: rgba(255, 247, 215, 1);
@@ -268,15 +279,17 @@ ul {
   border-radius: 20%;
 }
 
+/*
 .billede_placering {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
 }
+*/
 
 .max_width {
-  max-width: 1162px;
+  max-width: 562px;
   color: rgba(18, 18, 18, 1);
   background-color: rgba(18, 18, 18, 1);
   height: 4px;
@@ -322,6 +335,3 @@ ul {
   color: rgba(228, 221, 211, 1);
 }
 
-.smiley_position{
-  margin-left: 12%;
-}

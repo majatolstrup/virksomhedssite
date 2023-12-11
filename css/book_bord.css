@@ -52,14 +52,25 @@ img{
     max-width: 100%;
 }
 
-hr{
+.hr1{
     background-color: #FFF7D7;
     width: 463px;
-    height: 1px;
+    height: 2px;
  }
 
+ .hr2{
+    background-color: rgba(34, 33, 33, 1);
+    width: 463px;
+    height: 2px;
+ }
  .hr_position{
     padding-top: 1%;
+ }
+
+ .hr_position2{
+    padding-top: 4px;
+    width: 463px;
+    background-color: rgba(34, 33, 33, 1);
  }
 
  .centered {
@@ -77,4 +88,34 @@ hr{
   .billede_filter{
     filter: contrast(0);
     filter: brightness(0);
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #FFF7D7;
+    font-size: 2vw;
+  }
+
+  .paragraf_book_bord{
+    background-color:rgba(34, 33, 33, 1);
+    padding: 50px;
+  }
+
+  .beige_baggrund{
+    background-color: #FFF7D7;
+    padding: 20%;
+  }
+
+  .graa_farve{
+    color: rgba(34, 33, 33, 1);
+    max-width: 612px;
+    line-height: 45px;
+  }
+
+  h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: rgba(34, 33, 33, 1);
+    font-size: 4vw;
+    text-align: center;
+    padding: 4rem;
   }
