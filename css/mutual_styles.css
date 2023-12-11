@@ -1,21 +1,32 @@
-footer{
-    background-color: rgba(34, 33, 33, 1);
-    display: flex;
-    padding-bottom: 10%;
-    padding-top: 5%;
-  }
+footer {
+  background-color: rgba(34, 33, 33, 1);
+  display: flex;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
 
-.aabningstider{
-    max-width: 312px;
-    margin-left: 10%;
-  }
-  
-  .adresse{
-    max-width: 266px;
-    margin-left: 20%;
-  }
-  
-  .beige{
-    color: rgba(228, 221, 211, 1);
-  }
-  
+.aabningstider {
+  max-width: 312px;
+  margin-left: 10%;
+}
+
+.adresse {
+  max-width: 266px;
+  margin-left: 20%;
+}
+
+.beige {
+  color: rgba(228, 221, 211, 1);
+}
+@font-face {
+  font-family: menuskrift;
+  src: url(../fonts/BebasNeue-Regular.woff2);
+}
+@font-face {
+  font-family: menuskrift2;
+  src: url(../fonts/IndieFlower-Regular.woff2);
+}
+@font-face {
+  font-family: menuskrift3;
+  src: url(../fonts/Itim-Regular.woff2);
+}
