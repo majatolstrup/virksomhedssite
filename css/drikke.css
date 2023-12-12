@@ -8,7 +8,12 @@ nav {
     display: flex;
     align-items: center;
     padding: 10px;
+    font-family: menuskrift2;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
+
+
 .logo {
     margin-right: auto; 
 }
@@ -48,6 +53,7 @@ nav {
 #underoverskrift {
     margin-left: 450px;
     margin-bottom: 1px;
+    font-family: menuskrift2;
 }
 
 /* COCKTAILS/DRINKS */
@@ -61,13 +67,19 @@ nav {
 }
 .grid_1-1 div {
     margin: 0 10px; /* Adjust the margin as needed */
+    font-family: menuskrift;
   }
   dt {
     margin-top: 30px;
-    font-family: menuskrift3;
+    font-family: menuskrift2;
+    font-weight: 900;
     /* font-size: 1rem; */
 
     /* color: red; */
+  }
+
+  dd {
+    font-family: menuskrift2;
   }
 
 .drikke-pynt {
@@ -136,8 +148,10 @@ display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     justify-content: center;
-    /* margin-left: 150px; */
-    /* position: relative; */
+    align-items: center;
+    /* margin-left: 150px; 
+     position: relative;  */
+    font-family: menuskrift2;
 }
 
 #kaffe {
@@ -186,6 +200,7 @@ display: flex;
     gap: 1%;
     margin: 0 auto;
     margin-left: 450px;
+    font-family: menuskrift2;
   }
 
   .grid_1-4 {
@@ -194,13 +209,14 @@ display: flex;
     gap: 1%;
     margin: 0 auto;
     margin-left: 250px;
+    font-family: menuskrift2;
   }
   #farvepris {
     color: #E1B629;
     font: bold;
   }
   #avec {
-    background-image: url(../img/SVG/merepynt3.svg);
+    background-image: url(../img/SVG/merepynt6.svg);
     background-repeat: no-repeat;
     background-size: 1.65%;
     /* background-position: 49.7%; */
@@ -230,6 +246,8 @@ display: flex;
 h3 {
     margin-bottom: 10px;
     /* font-size: 1.5rem; */
+    font-family: menuskrift2;
+    font-weight: bold;
   }
 
  /*  h4{
@@ -246,12 +264,7 @@ h2 {
     /* font-family:'Rubik Bubbles' , sans serif; */
     /* font-size: 2rem */
     font-family: menuskrift2;
-}
-
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* font-size: 1.5rem; */
-   
+    font-weight: 900;
 }
 
 
@@ -259,11 +272,6 @@ p {
    /*  font-family: 'Ephesis' , sans serif; */
     /* color: red; */
 } 
-
-.liste a {
-    text-decoration: none;
-    color: black; 
-}
 
 
 
@@ -541,12 +549,6 @@ p {
         /* font-family:'Rubik Bubbles' , sans serif; */
         /* font-size: 2rem */
         font-family: menuskrift2;
-    }
-    
-    p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        /* font-size: 1.5rem; */
-       
     }
     
     
