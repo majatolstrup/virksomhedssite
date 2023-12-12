@@ -48,7 +48,6 @@ img {
   grid-row-end: 1;
   max-width: 529px;
   margin-left: 20%;
-  margin-top: 70%;
 }
 
 .h12 {
@@ -188,7 +187,6 @@ grid-column: 3/4;
 }
 
 .paragraf_menu {
-  margin-top: 40%;
   margin-left: 20%;
   max-width: 529px;
 }
@@ -227,10 +225,6 @@ grid-column: 3/4;
   margin-right: 5%;
 }
 
-.billede_lamper2 {
-  
-}
-
 .paragraf_drikkevarer {
   max-width: 529px;
   margin-left: 15%;
@@ -238,8 +232,6 @@ grid-column: 3/4;
 
 .btn_drik {
   margin-left: 50%;
-  grid-column-start: 1;
-  grid-column-end: 2;
   max-width: 85px;
 }
 
