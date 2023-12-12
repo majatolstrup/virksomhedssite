@@ -27,13 +27,16 @@ h1 {
   color: white;
   font-size: 4vw;
   text-align: center;
-  padding: 4rem;
+  padding-top: 1em;
+  font-weight: inherit;
 }
 
 p {
   font-family: menuskrift2;
   color: white;
   font-size: 2vw;
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -42,10 +45,6 @@ img {
 
 .p2 {
   color: rgba(64, 67, 64, 1);
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
   max-width: 529px;
   margin-left: 20%;
 }
@@ -53,20 +52,18 @@ img {
 .h12 {
   color: rgba(64, 67, 64, 1);
   max-width: 3vw;
-  margin-left: 8%;
+  margin-left: 30%;
 }
 
 .h13 {
   color: rgba(0, 72, 232, 1);
   margin-left: 10%;
-  grid-column: 1/2;
 }
 
 .p3 {
   color: rgba(0, 72, 232, 1);
-  max-width: 487px;
-  grid-column: 1/2;
-  grid-row: 2/3;
+  width: 487px;
+  margin-left: 17%;
 }
 
 .h14 {
@@ -88,7 +85,7 @@ a {
   padding: 0.8em;
   text-decoration: none;
   margin: 1em;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: menuskrift2;
   align-items: center;
 }
 
@@ -137,11 +134,15 @@ ul {
 .paragraf_forside {
   width: 1109px;
   display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .knapper_forside {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .billeder_bund_forside {
@@ -211,6 +212,17 @@ grid-column: 3/4;
   grid-column: 2/2;
 }
 
+.menu_knap {
+  border-radius: 30%;
+  color: white;
+  background-color: rgba(230, 64, 37, 1);
+  border: solid white 3px;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  grid-column: 2/2;
+}
+
 /*
 .btn_position {
   padding-top: 250%;
@@ -250,15 +262,15 @@ grid-column: 3/4;
 }
 
 .om_os_position {
-grid-column: 1/2;
-padding-top: 7%;
-padding-bottom: 7%;
+display: flex;
+justify-content: center;
 }
 
 
 .om_os2 {
   background-color: rgba(255, 247, 215, 1);
-  padding-left: 10%;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .billede_runding1 {
@@ -284,7 +296,6 @@ padding-bottom: 7%;
   color: rgba(64, 67, 64, 1);
   text-align: center;
   margin-left: 25%;
-  margin-top: -7%;
 }
 
 .btn_laes_mere a {
@@ -302,8 +313,10 @@ padding-bottom: 7%;
 
 .overskrift_insta {
   max-width: 1000px;
-  margin-left: 10%;
-  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aabningstider {

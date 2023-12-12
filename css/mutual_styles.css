@@ -1,3 +1,8 @@
+@font-face {
+  font-family: menuskrift2;
+  src: url(../fonts/IndieFlower-Regular.woff2);
+}
+
 footer {
   background-color: rgba(34, 33, 33, 1);
   display: flex;
@@ -13,6 +18,38 @@ footer {
 .adresse {
   max-width: 266px;
   margin-left: 20%;
+}
+
+header {
+  padding-top: 2.5%;
+  align-items: center;
+  display: flex;
+  font-family: menuskrift2;
+}
+
+.header_position {
+  padding-top: 2.5%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  text-decoration: none;
+}
+
+.nav a {
+  padding: 0.8em;
+  text-decoration: none;
+  margin: 1em;
+  font-family: menuskrift2;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  font-family: menuskrift2;
 }
 
 .beige {
