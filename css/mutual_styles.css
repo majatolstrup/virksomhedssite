@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer_layout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,6 +20,14 @@
   margin: 0 auto;
 }
 /* footer {
+=======
+@font-face {
+  font-family: menuskrift2;
+  src: url(../fonts/IndieFlower-Regular.woff2);
+}
+
+footer {
+>>>>>>> 02fb937f4f1c53edabbc4b1231b45364851cb1b5
   background-color: rgba(34, 33, 33, 1);
   display: flex;
   padding-bottom: 10%;
@@ -33,6 +42,38 @@
 .adresse {
   max-width: 266px;
   margin-left: 20%;
+}
+
+header {
+  padding-top: 2.5%;
+  align-items: center;
+  display: flex;
+  font-family: menuskrift2;
+}
+
+.header_position {
+  padding-top: 2.5%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  text-decoration: none;
+}
+
+.nav a {
+  padding: 0.8em;
+  text-decoration: none;
+  margin: 1em;
+  font-family: menuskrift2;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  font-family: menuskrift2;
 }
 
 .beige {
