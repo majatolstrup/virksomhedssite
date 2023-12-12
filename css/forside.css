@@ -66,6 +66,8 @@ img {
 .p3 {
   color: rgba(0, 72, 232, 1);
   max-width: 487px;
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 .h14 {
@@ -137,6 +139,7 @@ ul {
 
 .knapper_forside {
   display: flex;
+  align-items: center;
 }
 
 .billeder_bund_forside {
@@ -266,12 +269,10 @@ grid-row: 1/2;
   grid-template-columns: 1fr 1fr;
 }
 
-/*
 .om_os_position {
-  padding-left: 8rem;
-  padding-top: 45rem;
+grid-column: 1/2;
 }
-*/
+
 
 .om_os2 {
   background-color: rgba(255, 247, 215, 1);
