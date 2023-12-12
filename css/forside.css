@@ -1,3 +1,9 @@
+@font-face {
+  font-family: menuskrift2;
+  src: url(../fonts/IndieFlower-Regular.woff2);
+}
+
+
 /****Generelt*****/
 header {
   background-color: rgba(18, 18, 18, 1);
@@ -25,7 +31,7 @@ h1 {
 }
 
 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: menuskrift2;
   color: white;
   font-size: 2vw;
 }
@@ -47,32 +53,19 @@ img {
 
 .h12 {
   color: rgba(64, 67, 64, 1);
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  max-width: 529px;
+  max-width: 3vw;
   margin-left: 8%;
 }
 
 .h13 {
   color: rgba(0, 72, 232, 1);
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
   margin-left: 10%;
+  grid-column: 1/2;
 }
 
 .p3 {
   color: rgba(0, 72, 232, 1);
   max-width: 487px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin-top: 40%;
-  margin-left: 30%;
 }
 
 .h14 {
@@ -155,23 +148,44 @@ ul {
 .menu_forside {
   background-color: rgba(230, 64, 37, 1);
   display: grid;
-  /*
   grid-template-columns: 1fr 1fr;
-  */
-  padding-top: 10%;
-  padding-bottom: 10%;
 }
 
+.grid_1-2{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.grid_2-3{
+grid-column: 3/4;
+grid-row: 1/1;
+}
+
+.grid_2-4{
+grid-column: 3/4;
+grid-row: 1/2;
+}
+
+.grid_2-2{
+  grid-column: 2/2;
+}
+
+.grid_1-2-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
 .overskrift_menu {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
   max-width: 652px;
 }
 
 .paragraf_menu {
-  margin-top: 65%;
+  margin-top: 40%;
   margin-left: 20%;
   max-width: 529px;
 }
@@ -179,10 +193,6 @@ ul {
 .billede_runding {
   border-radius: 10%;
   margin: 5%;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
 }
 
 .drikkevarer_forside {
@@ -197,12 +207,11 @@ ul {
   border-radius: 30%;
   color: rgba(18, 18, 18, 1);
   background-color: rgba(250, 248, 99, 1);
-  padding: 0.8em;
   border: solid rgba(18, 18, 18, 1) 3px;
   text-decoration: none;
-  margin: 1em;
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  grid-column: 2/2;
 }
 
 /*
@@ -241,22 +250,17 @@ ul {
 }
 
 .om_os_btn {
-  margin-left: -160%;
-  margin-top: 500%;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  max-width: 85px;
+  max-width: 60px;
   padding: 0.8em;
   border: solid rgba(0, 72, 232, 1) 3px;
   background-color: rgba(255, 247, 215, 1);
   color: rgba(0, 72, 232, 1);
-  font-size: x-large;
+  font-size: large;
 }
 
 
 .om_os {
   background-color: rgba(255, 247, 215, 1);
-  padding-top: 10%;
   padding-bottom: 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -271,22 +275,18 @@ ul {
 
 .om_os2 {
   background-color: rgba(255, 247, 215, 1);
-  padding-top: 10%;
-  padding-bottom: 10%;
 }
 
 .billede_runding1 {
   border-radius: 20%;
 }
 
-/*
+
 .billede_placering {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-column: 3/4;
+  grid-row: 2/1;
 }
-*/
+
 
 .max_width {
   max-width: 562px;
