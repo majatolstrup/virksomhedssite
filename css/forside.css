@@ -48,7 +48,6 @@ img {
   grid-row-end: 1;
   max-width: 529px;
   margin-left: 20%;
-  margin-top: 70%;
 }
 
 .h12 {
@@ -72,11 +71,6 @@ img {
 
 .h14 {
   color: rgba(64, 67, 64, 1);
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin-left: 10%;
 }
 
 a {
@@ -111,6 +105,7 @@ ul {
 .knapper a {
   border: solid white 3px;
   font-size: x-large;
+ 
 }
 
 /********Andet********/
@@ -118,6 +113,7 @@ ul {
 .flex_col{
   display: flex;
   flex-direction: column;
+
 }
 
 .logo_forside {
@@ -139,7 +135,7 @@ ul {
 
 .paragraf_forside {
   width: 1109px;
-  text-align: center;
+  align-items: center;
 }
 
 .knapper_forside {
@@ -188,7 +184,6 @@ grid-column: 3/4;
 }
 
 .paragraf_menu {
-  margin-top: 40%;
   margin-left: 20%;
   max-width: 529px;
 }
@@ -227,10 +222,6 @@ grid-column: 3/4;
   margin-right: 5%;
 }
 
-.billede_lamper2 {
-  
-}
-
 .paragraf_drikkevarer {
   max-width: 529px;
   margin-left: 15%;
@@ -238,8 +229,6 @@ grid-column: 3/4;
 
 .btn_drik {
   margin-left: 50%;
-  grid-column-start: 1;
-  grid-column-end: 2;
   max-width: 85px;
 }
 
@@ -289,7 +278,7 @@ grid-column: 1/2;
   max-width: 685px;
   color: rgba(64, 67, 64, 1);
   text-align: center;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: -7%;
 }
 
@@ -302,7 +291,6 @@ grid-column: 1/2;
   text-decoration: none;
   margin: 1em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 50%;
   font-size: x-large;
 }
 
