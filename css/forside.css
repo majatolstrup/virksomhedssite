@@ -105,6 +105,7 @@ ul {
 .knapper a {
   border: solid white 3px;
   font-size: x-large;
+ 
 }
 
 /********Andet********/
@@ -112,6 +113,7 @@ ul {
 .flex_col{
   display: flex;
   flex-direction: column;
+
 }
 
 .logo_forside {
@@ -291,6 +293,7 @@ grid-column: 1/2;
   margin: 1em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: x-large;
+  margin-left: 44%;
 }
 
 .overskrift_insta {
