@@ -14,12 +14,20 @@ body {
   max-width: 1512px;
 }
 
+/*
+.footer_layout{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*/
+
+/*
 footer {
   background-color: rgba(34, 33, 33, 1);
   display: flex;
   padding-bottom: 10%;
   padding-top: 5%;
 }
+*/
 
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -310,6 +318,7 @@ ul {
   margin-right: auto;
 }
 
+/*
 .aabningstider {
   max-width: 312px;
   margin-left: 10%;
@@ -323,6 +332,7 @@ ul {
 .beige {
   color: rgba(228, 221, 211, 1);
 }
+*/
 
 .insta {
   border-radius: 30%;

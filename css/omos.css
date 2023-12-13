@@ -1,0 +1,146 @@
+@media (min-width: 600px) {
+body {
+    background-color: #FFF7D7;
+}
+nav{
+    background-color: #FFF7D7;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: menuskrift2;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+    color: #0048E8;
+}
+.logo {
+    margin-right: auto;
+    width: 100%;
+}
+.liste {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.liste li {
+    margin: 0 70px; 
+}
+
+h1 {
+    color: #0048E8;
+    font-family: menuskrift3;
+    margin-left: 19%;
+}
+.design {
+    color: black;
+    font-family: menuskrift2;
+    font-size: 110%;
+}
+
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.chr-mat {
+    height: 80%;
+    width: 50%;
+}
+
+.grid_1-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.grid_1-6 img {
+    /* max-width: 100%;
+    height: auto; */
+    height: 80%;
+    width: 50%;
+    margin-right: 10px;
+}
+}
+
+
+
+
+@media (max-width: 600px) {
+
+body {
+    background-color: #FFF7D7;
+}
+nav{
+    background-color: #FFF7D7;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: menuskrift2;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+    color: #0048E8;
+}
+.logo {
+    margin-right: auto;
+}
+.liste {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.liste li {
+    margin: 0 70px; 
+}
+
+h1 {
+    color: #0048E8;
+    font-family: menuskrift3;
+   text-align: center;
+}
+.design {
+    color: black;
+    font-family: menuskrift2;
+    text-align: center;
+}
+
+
+.grid_1-1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.chr-mat {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.grid_1-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  
+}
+.grid_1-6 img {
+    /* height: 80%;
+    width: 50%; */
+    max-width: 100%;
+    height: auto;
+   
+}
+}
