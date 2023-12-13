@@ -9,7 +9,7 @@ nav{
     padding: 10px;
     font-family: menuskrift2;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 nav a {
     text-decoration: none;
@@ -40,7 +40,6 @@ h1 {
     font-size: 110%;
 }
 
-
 .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -69,6 +68,12 @@ h1 {
     width: 50%;
     margin-right: 10px;
 }
+
+.burger-menu {
+    display: none;
+}
+
+
 }
 
 
@@ -79,7 +84,7 @@ h1 {
 body {
     background-color: #FFF7D7;
 }
-nav{
+/* nav{
     background-color: #FFF7D7;
     display: flex;
     align-items: center;
@@ -103,6 +108,52 @@ nav a {
 }
 .liste li {
     margin: 0 70px; 
+} */
+
+nav {
+    font-size: 1rem; /* Adjust the font size for smaller screens if needed */
+}
+
+.liste {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #FFF7D7;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+}
+
+.liste li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0048E8;
+}
+
+.liste.active {
+    display: flex;
+}
+
+.burger-menu {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    color: #0048E8; /* Set the color to match your design */
+    display: flex;
+   margin-right: auto;
+}
+
+/* Add a hover effect */
+.burger-menu:hover {
+    background-color: #6998FF; /* Set the hover background color */
 }
 
 h1 {

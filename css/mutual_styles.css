@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   background-color: rgba(34, 33, 33, 1);
+  font-family: menuskrift2;
 }
 
 .aabningstider {

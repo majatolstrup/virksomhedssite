@@ -10,7 +10,7 @@ nav {
     padding: 10px;
     font-family: menuskrift2;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .logo {
     margin-right: auto; 
@@ -227,6 +227,10 @@ h2 {
     font-family: menuskrift2;
     font-weight: 900;
 }
+
+.burger-menu {
+    display: none;
+}
 } 
 
 
@@ -239,18 +243,24 @@ h2 {
         background-color: #FAF863;
         font-size: 1rem;
     }
-    nav {
+    /* nav {
         background-color: #FAF863;
         display: flex;
         align-items: center;
         padding: 10px;
         font-family: menuskrift2;
         font-weight: bold;
-        /* font-size: 1.5rem; */
-    }
+    } */
     .logo {
         margin-right: auto; 
     }
+
+
+
+    .billede_filter{
+        filter: brightness(0); 
+    }
+
     nav a {
         text-decoration: none;
         color: black;
@@ -264,6 +274,53 @@ h2 {
     }
     .liste li {
         margin: 0 70px; 
+    } */
+
+    nav {}
+    nav {
+        font-size: 1rem;
+    }
+    
+    .liste {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #FAF863;
+       /*  z-index: 1; */
+        list-style: none;
+        padding: 0;
+    }
+    
+    .liste li {
+        margin: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .liste.active {
+        display: flex;
+    }
+    
+    .burger-menu {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 10px;
+        color: black; /* Set the color to match your design */
+        display: flex;
+       margin-right: auto;
+    }
+    
+    /* Add a hover effect */
+    .burger-menu:hover {
+        background-color: #DEDC58; /* Set the hover background color */
     }
     
     .vinglas {
