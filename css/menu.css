@@ -10,6 +10,10 @@
   font-family: menuskrift3;
   src: url(../fonts/Itim-Regular.woff2);
 }
+@font-face {
+  font-family: overskrift;
+  src: url(../fonts/AnyConv.com__Këonkzàvil\ Sans\ Serif\ 2023.woff2);
+}
 
 @media (max-width: 700px) {
   .croissant_h,
@@ -78,11 +82,11 @@ h1,
 h2 {
   color: #fff7d7;
   margin-left: 5%;
-  font-family: menuskrift3;
 }
 h1 {
   text-align: center;
   margin-right: 5%;
+  font-family: menuskrift3;
 }
 
 dl {
