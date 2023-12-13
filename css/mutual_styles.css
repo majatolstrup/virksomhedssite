@@ -19,16 +19,6 @@
   margin: 0 auto;
 }
 
-/* .aabningstider {
-  max-width: 312px;
-  margin-left: 10%;
-}
-
-.adresse {
-  max-width: 266px;
-  margin-left: 20%;
-}
-
 header {
   padding-top: 2.5%;
   align-items: center;
@@ -56,14 +46,14 @@ ul {
   align-items: center;
 }
 
-li{
+li {
   list-style: none;
   font-family: menuskrift2;
 }
 
 .beige {
   color: rgba(228, 221, 211, 1);
-} */
+}
 @font-face {
   font-family: menuskrift;
   src: url(../fonts/BebasNeue-Regular.woff2);
