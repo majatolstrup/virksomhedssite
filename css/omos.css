@@ -123,10 +123,17 @@ nav {
     width: 100%;
     background-color: #FFF7D7;
     z-index: 1;
+    list-style: none;
+    padding: 0;
 }
 
 .liste li {
     margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0048E8;
 }
 
 .liste.active {
@@ -146,7 +153,7 @@ nav {
 
 /* Add a hover effect */
 .burger-menu:hover {
-    background-color: #E0E0E0; /* Set the hover background color */
+    background-color: #6998FF; /* Set the hover background color */
 }
 
 h1 {
