@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .footer_layout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,21 +18,6 @@
   width: 30%;
   margin: 0 auto;
 }
-/* footer {
-=======
-@font-face {
-  font-family: menuskrift2;
-  src: url(../fonts/IndieFlower-Regular.woff2);
-}
-
-footer {
->>>>>>> 02fb937f4f1c53edabbc4b1231b45364851cb1b5
-  background-color: rgba(34, 33, 33, 1);
-  display: flex;
-  padding-bottom: 10%;
-  padding-top: 5%;
-} */
-
 /* .aabningstider {
   max-width: 312px;
   margin-left: 10%;
