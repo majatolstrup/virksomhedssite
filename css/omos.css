@@ -33,9 +33,10 @@ h1 {
     font-family: menuskrift3;
     margin-left: 19%;
 }
-p {
+.design {
     color: black;
     font-family: menuskrift2;
+    font-size: 110%;
 }
 
 
@@ -65,6 +66,27 @@ img {
     height: auto;
     margin-right: 10px;
 }
+
+.footer_layout1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 33, 33, 1);
+}
+
+.aabningstider1 {
+    color: #FFF7D7;
+    margin-bottom: 0;
+}
+.adresse1 {
+    color: #FFF7D7;
+    margin-bottom: 0;
+}
+.smiley img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
 }
 
 
@@ -106,7 +128,7 @@ h1 {
     font-family: menuskrift3;
    text-align: center;
 }
-p {
+.design {
     color: black;
     font-family: menuskrift2;
     text-align: center;
