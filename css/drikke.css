@@ -254,7 +254,14 @@ h2 {
     .logo {
         margin-right: auto; 
     }
-    /* nav a {
+
+
+
+    .billede_filter{
+        filter: brightness(0); 
+    }
+
+    nav a {
         text-decoration: none;
         color: black;
     }
@@ -269,8 +276,9 @@ h2 {
         margin: 0 70px; 
     } */
 
+    nav {}
     nav {
-        font-size: 1rem; /* Adjust the font size for smaller screens if needed */
+        font-size: 1rem;
     }
     
     .liste {
