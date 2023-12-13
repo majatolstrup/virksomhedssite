@@ -50,7 +50,7 @@ h1 {
     margin: 30px;
 }
 
-img {
+.chr-mat {
     height: 80%;
     width: 50%;
 }
@@ -63,31 +63,12 @@ img {
     margin-bottom: 50px;
 }
 .grid_1-6 img {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
+    height: 80%;
+    width: 50%;
     margin-right: 10px;
 }
-
-.footer_layout1 {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(34, 33, 33, 1);
-}
-
-.aabningstider1 {
-    color: #FFF7D7;
-    margin-bottom: 0;
-}
-.adresse1 {
-    color: #FFF7D7;
-    margin-bottom: 0;
-}
-.smiley img {
-    display: block;
-    width: 30%;
-    margin: 0 auto;
-}
-
 }
 
 
@@ -136,18 +117,17 @@ h1 {
 }
 
 
-/* .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.grid_1-1 {
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 30px;
-} */
+}
 
-img {
-    height: 80%;
-    width: 50%;
+.chr-mat {
+    height: 100%;
+    width: 100%;
+    
 }
 
 .grid_1-6 {
@@ -157,7 +137,10 @@ img {
   
 }
 .grid_1-6 img {
+    /* height: 80%;
+    width: 50%; */
     max-width: 100%;
     height: auto;
+   
 }
 }
