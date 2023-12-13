@@ -17,6 +17,7 @@ nav a {
 }
 .logo {
     margin-right: auto;
+    width: 100%;
 }
 .liste {
     display: flex;
