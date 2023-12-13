@@ -17,12 +17,14 @@ header {
   align-items: center;
 }
 
+/*
 footer {
   background-color: rgba(34, 33, 33, 1);
   display: flex;
   padding-bottom: 10%;
   padding-top: 5%;
 }
+*/
 
 a {
   border-radius: 30%;
