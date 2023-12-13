@@ -251,6 +251,11 @@ h2 {
     .logo {
         margin-right: auto; 
     }
+
+    .billede_filter{
+        filter: brightness(0); 
+    }
+
     nav a {
         text-decoration: none;
         color: black;
