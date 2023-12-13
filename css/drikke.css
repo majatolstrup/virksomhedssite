@@ -17,6 +17,12 @@ nav {
 .logo {
     margin-right: auto; 
 }
+
+.billede_filter{
+    filter: contrast(0);
+    filter: brightness(0);
+}
+
 .liste {
     display: flex;
     list-style: none;

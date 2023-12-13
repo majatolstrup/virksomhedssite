@@ -1,11 +1,24 @@
-footer {
+.footer_layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: rgba(34, 33, 33, 1);
-  display: flex;
-  padding-bottom: 10%;
-  padding-top: 5%;
 }
 
 .aabningstider {
+  color: #fff7d7;
+  margin-bottom: 0;
+  text-align: center;
+}
+.adresse {
+  color: #fff7d7;
+  margin-bottom: 0;
+}
+.smiley img {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+/* .aabningstider {
   max-width: 312px;
   margin-left: 10%;
 }
@@ -15,9 +28,41 @@ footer {
   margin-left: 20%;
 }
 
+header {
+  padding-top: 2.5%;
+  align-items: center;
+  display: flex;
+  font-family: menuskrift2;
+}
+
+.header_position {
+  padding-top: 2.5%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  text-decoration: none;
+}
+
+.nav a {
+  padding: 0.8em;
+  text-decoration: none;
+  margin: 1em;
+  font-family: menuskrift2;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  font-family: menuskrift2;
+}
+
 .beige {
   color: rgba(228, 221, 211, 1);
-}
+} */
 @font-face {
   font-family: menuskrift;
   src: url(../fonts/BebasNeue-Regular.woff2);

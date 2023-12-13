@@ -11,6 +11,18 @@
   src: url(../fonts/Itim-Regular.woff2);
 }
 
+@media (max-width: 700px) {
+  .croissant_h,
+  .croissant_v {
+    display: none;
+  }
+  .centreret {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
 body {
   background-color: #e64025;
 }
@@ -39,19 +51,13 @@ a {
   padding: 0.8em;
   text-decoration: none;
   margin: 1em;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: menuskrift2;
   align-items: center;
 }
 
 .header_position {
   padding-top: 2.5%;
   align-items: center;
-}
-footer {
-  background-color: rgba(34, 33, 33, 1);
-  display: flex;
-  padding-bottom: 10%;
-  padding-top: 5%;
 }
 
 ul {
@@ -181,19 +187,38 @@ hr {
   gap: 6em;
   margin-left: 5%;
 }
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.ret {
+  grid-column: 2/3;
+}
+.klokke {
+  grid-column: 3/4;
+  color: #fff7d7;
+  font-family: menuskrift3;
+}
+
+.croissant_v img,
+.croissant_h img {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+
+.morgenmad {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
 
 .centreret {
   text-align: center;
 }
-.croissant {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2em auto;
-  width: 30%;
-  opacity: 0.6;
-}
-.aftenmenu {
+
+.dessert,
+.frokost {
   background-color: #c33520;
   border-radius: 5px;
 }
