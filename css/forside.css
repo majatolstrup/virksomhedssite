@@ -3,7 +3,6 @@
   src: url(../fonts/IndieFlower-Regular.woff2);
 }
 
-
 /****Generelt*****/
 header {
   background-color: rgba(18, 18, 18, 1);
@@ -15,9 +14,11 @@ body {
   max-width: 1512px;
 }
 
+/*
 .footer_layout{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+*/
 
 /*
 footer {
@@ -109,22 +110,20 @@ ul {
 .knapper a {
   border: solid white 3px;
   font-size: x-large;
- 
 }
 
 /********Andet********/
 
-.flex_col{
+.flex_col {
   display: flex;
   flex-direction: column;
-
 }
 
 .logo_forside {
   text-align: center;
 }
 
-.grid_1-1-1{
+.grid_1-1-1 {
   display: flex;
   justify-content: flex-end;
   padding-top: 55px;
@@ -161,31 +160,29 @@ ul {
   background-color: rgba(230, 64, 37, 1);
 }
 
-.grid_1-2{
+.grid_1-2 {
   grid-column: 1/2;
   grid-row: 1/2;
-  
 }
 
-.grid_2-3{
-grid-column: 3/4;
+.grid_2-3 {
+  grid-column: 3/4;
 }
 
-.grid_2-2{
+.grid_2-2 {
   grid-column: 2/2;
 }
 
-.grid_1-2-3{
+.grid_1-2-3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-.grid_1-1{
+.grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 
 .overskrift_menu {
   max-width: 652px;
@@ -260,7 +257,6 @@ grid-column: 3/4;
   font-size: large;
 }
 
-
 .om_os {
   background-color: rgba(255, 247, 215, 1);
   padding-bottom: 10%;
@@ -268,10 +264,9 @@ grid-column: 3/4;
 }
 
 .om_os_position {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 
 .om_os2 {
   background-color: rgba(255, 247, 215, 1);
@@ -283,12 +278,10 @@ justify-content: center;
   border-radius: 20%;
 }
 
-
 .billede_placering {
   grid-column: 3/4;
   grid-row: 2/1;
 }
-
 
 .max_width {
   max-width: 562px;
@@ -341,7 +334,7 @@ justify-content: center;
 }
 */
 
-.insta{
+.insta {
   border-radius: 30%;
   border: solid white;
   color: white;
