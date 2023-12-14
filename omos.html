@@ -1,88 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
-    
-    <link rel="stylesheet" href="css/omos.css">
-    <link rel="stylesheet" href="css/mutual_styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="css/mutual_styles.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <title>Menu</title>
     <link rel="icon" type="logo" href="img/sort_logo.webp">
-
-    <title>Om Os</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <button class="burger-menu">&#9776;</button>
-            <a href="index.html">
-                <img class="logo billede_filter" src="img/logo-forside.png" alt="Bankeråt Logo">
-            </a>
-            <ul class="liste">
-                <li><a href="index.html">Forside</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="drikke.html">Drikkevarer</a></li>
-                <li><a href="omos.html">Om Os</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="book_bord.html">Book Bord</a></li>
-            </ul>
-        </nav>
+      <div>
+        <a href="index.html"
+          ><img src="img/logo-forside.png" alt="logo-forside"
+        /></a>
+      </div>
+
+      <nav class="nav a">
+        <button class="burger-menu">&#9776;</button>
+        <ul class="header_position liste">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="drikke.html">Drikkevarer</a></li>
+          <li><a href="omos.html">Om Os</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="book_bord.html">Book Bord</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        
-        <h1>♥︎ Bankeråt ♥︎</h1>
-        
-    <section class="grid_1-1">
-        <div class="design">
-            <p>Et helt særligt sted, hvor eklektisk boheme interiør boltrer sig ubesværet. Højt til loftet og en afslappet atmosfære danner rammerne for at du kan nyde lækkerier fra det dogmefrie menukort, i hjertet af København </p>
-            <p>****</p>
-            <p>Bankeråt, grundlagt i 1989 som en pioner inden for franske caféer i hjertet af København, er et unikt og pulserende kulturhus. Her forenes kultur, kunst, bæredygtighed og meget mere i en dynamisk atmosfære.</p>
-
-            <p>Den 1. november 2023 tog Mathias, Christian og et dedikeret team styringen og forpligtede sig til at respektere Bankeråts rige historie. Vores mål er at løfte stedet til nye kvalitetsstandarder uden at gå på kompromis med tilgængelighed. Vi udvider vores udvalg for at inkludere både prisvenlige og mere eksklusive muligheder - alt sammen med det formål at tilbyde en bred vifte af oplevelser.</p>
-
-            <p>Bankeråt skiller sig ud med sin unikke kombination af historie og en særegen indretningsstil. Det er ikke for alle, men for os er det en fornøjelse at have så stor diversitet i vores rum. Fra kropsstøbninger til malerier værdsætter vi mangfoldighed og stræber efter, at der er plads til alle i vores hus.</p>
-
-            <p>Vi lægger stor vægt på at omfavne mangfoldigheden og skabe et rum, hvor alle kan føle sig velkomne. Hos Bankeråt er det ikke bare et sted - det er en ånd, der hylder forskellighed og fællesskab. Velkommen til vores hjem, hvor der er plads til alle.</p>
-            <p>****</p>
+      <!-- <h1 class="menu_overskrift">MENUKORT</h1> -->
+      <div class="billede_center">
+        <div class="menu_forsidebillede">
+          <img src="img/morgenmad_foto.jpg" alt="" />
+          <div class="centered">
+            <h1>Menukort</h1>
+          </div>
         </div>
-<div>
-            <img class="chr-mat" src="img/chr-mat.jpg" alt="">
+      </div>
+      <div class="grid_1-1-1">
+        <h1 class="ret">MORGENMAD</h1>
+        <p class="klokke">10.00-12.00</p>
+      </div>
+      <div class="grid_1-1-1">
+        <div class="croissant_v">
+          <img src="img/croissant_v.svg" alt="" />
         </div>
-        </section>
-
-<section class="grid_1-6">
-        <img src="img/omos1.JPG" alt="">
-        <img src="img/omos2.JPG" alt="">
-        <img src="img/omos4.JPG" alt="">
-        <img src="img/omos5.JPG" alt="">
-        <img src="img/omos6.JPG" alt="">
-        <img src="img/omos7.JPG" alt="">
-    </section>
-    </main>
-    <footer>
-        <div class="footer_layout">
-            <div class="aabningstider">
-              <p>ÅBNINGSTIDER</p>
-              <p>MAN-ONS 10:30-23.</p>
-              <p>FRE 10:30-24:00</p>
-              <p>LØR 10:30-24:00</p>
-              <p>SØN 10:30-20:00</p>
-              <p>Telefon 3393 6988</p>
-            </div>
-            <div class="adresse">
-              <p>
-                ADRESSE Ahlefeldtsgade 27-29 1359 København K info@bankeraat.dk CVR
-                39969920
-              </p>
-            </div>
-            <div class="smiley">
-              <a
-                href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk5756499"
-                ><img src="img/Sm1bg_png.png" alt="Smiley"
-              /></a>
+        <div class="centreret">
+          <div class="morgenmad">
+            <div class="morgen_retter">
+              <dl>
+                <dt>Croissant / Pain au chocolat</dt>
+                <dd>Friskbagt og sprødt bagværk, hver morgen.</dd>
+                <dd class="prices">25,-</dd>
+                <dt>Bolle med tandsmør og ost</dt>
+                <dd>Friskbagt bolle serveret med økologisk tandsmør og ost.</dd>
+                <dd class="prices">45,-</dd>
+                <dt>Skyr m. kompot & knas</dt>
+                <dd>Økologisk skyr m. hjemmelavet frugtkompot og knas</dd>
+                <dd class="prices">45,-</dd>
+                <dt>Scrambled eggs m. skinke</dt>
+                <dd>Økologiske scrambled eggs m. skinke</dd>
+                <dd class="prices">95,-</dd>
+                <dt>Bankeråts Morgenpandekage</dt>
+                <dd>Hjemmebagt crêpe m. røget laks, avocado og grøntsager</dd>
+                <dd class="prices">125,-</dd>
+              </dl>
             </div>
           </div>
+        </div>
+        <div class="croissant_h">
+          <img src="img/croissant_h.svg" alt="" />
+        </div>
+      </div>
+
+      <img class="menu_moenster" src="img/menu_pynt.svg" alt="" />
+
+      <div class="frokost">
+        <div class="grid_1-1-1">
+          <h1 class="ret">FROKOST</h1>
+          <p class="klokke">12.00-16.00</p>
+        </div>
+
+        <div class="grid_1-1">
+          <div class="smor">
+            <h2>Smørrebrød</h2>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Vegansk kartoffelmad</div>
+              </div>
+              <div class="hoejre"><p>105,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Bankeråt rejesalat m. æbler & bladselleri</div>
+              </div>
+              <div class="hoejre"><p>125,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Bankeråt hjemmerørt tartar</div>
+              </div>
+              <div class="hoejre"><p>125,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>
+                  <p>Roastbeef af kalveculotte m. hjemmerørt remoulade,</p>
+                  syltet agurkesalat og friterede løg
+                </div>
+              </div>
+              <div class="hoejre"><p>125,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>
+                  Koldrøget laks m. agurk, syltede rødløg, avocado og rygeost
+                </div>
+              </div>
+              <div class="hoejre"><p>125,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Julespecial - Bankeråt signatur sild m. kapers og løg</div>
+              </div>
+              <div class="hoejre"><p>125,-</p></div>
+            </div>
+          </div>
+
+          <div class="sand">
+            <h2>Sandwiches</h2>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Avocado med grønne lækkerier</div>
+              </div>
+              <div class="hoejre"><p>125,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Tomat, mozzarella og pesto</div>
+              </div>
+              <div class="hoejre"><p>125,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Koldrøget laks m. æggecreme og spinat</div>
+              </div>
+              <div class="hoejre"><p>155,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Kalveculotte m. stegte svampe og grillede tomater</div>
+              </div>
+              <div class="hoejre"><p>175,-</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid_1-1">
+          <div class="salat">
+            <h2>Sprøde salater</h2>
+            <div class="menumadret">
+              <div class="venstre">
+                <div>
+                  Gedeost, rodfrugter og balsamico dressing (+30,- lufttørret
+                  skinke)
+                </div>
+              </div>
+              <div class="hoejre"><p>155,-</p></div>
+            </div>
+
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Varmrøget laksemousse m. avocado</div>
+              </div>
+              <div class="hoejre"><p>185,-</p></div>
+            </div>
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Varmrøget laksemousse m. avocado</div>
+              </div>
+              <div class="hoejre"><p>185,-</p></div>
+            </div>
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Okseculotte m. syltede svampe og rapsmayo</div>
+              </div>
+              <div class="hoejre"><p>185,-</p></div>
+            </div>
+          </div>
+
+          <div class="tand">
+            <h2>Til den søde tand</h2>
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Dagens kage</div>
+              </div>
+              <div class="hoejre"><p>85,-</p></div>
+            </div>
+            <div class="menumadret">
+              <div class="venstre">
+                <div>Croissant el. Pain au Chocolat</div>
+              </div>
+              <div class="hoejre"><p>30,-</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="menu_moenster" src="img/menu_pynt.svg" alt="" />
+
+      <div class="centreret">
+        <div class="aftenmenu">
+          <div class="grid_1-1-1">
+            <h1 class="ret">SIGNATUR AFTENMENU</h1>
+            <p class="klokke">16.30-21.30</p>
+          </div>
+          <dl>
+            <dt>TATAR</dt>
+            <dd>
+              Hjemmerørt tartar m. peberrod, kapers, Portobello svampe,
+              koldpresset rapsolie, æggeblomme, sauterede skalotteløg
+            </dd>
+            <dd class="prices">155,- / 175,- / 195,-</dd>
+            <dd class="prices">75 g / 110 g / 175 g</dd>
+            <dt>RATATOUILLE</dt>
+            <dd>
+              Klassisk franske bonderet; en skøn og enkel samhørighed af tomat,
+              aubergine, squash og løg samt sprød topping.
+            </dd>
+            <dd class="prices">125,- / 155-</dd>
+            <dt>MOULES FRITES</dt>
+            <dd>Blåmuslinger m. smagsgivende urter, fløde og hvidvin.</dd>
+            <dd class="prices">155,- / 195,-</dd>
+            <dt>ÆGTE CARBONARA</dt>
+            <dd>
+              Klassisk pastaret, cremet og lækker og lavet på Bankeråt manér;
+              spaghetti, hvidløg, æggeblommer, lagret Vesterhavsost og peber.
+            </dd>
+            <dd class="prices">185,-</dd>
+            <dt>SKAFTKOTELET</dt>
+            <dd>
+              Grillede tomater, sæsonens grønt, kartofler (Vælg enten fritter
+              el. mos.) samt saftig kotelet med et helt ribben, der tilføjer en
+              masse smag.
+            </dd>
+            <dd class="prices">215,-</dd>
+            <dt>BRAISERET LAMMESKANK</dt>
+            <dd>Langtidsbraiseret lammeskank m. kartoffelmos og grøntsager.</dd>
+            <dd class="prices">245,-</dd>
+          </dl>
+          <img class="menu_moenster" src="img/menu_pynt.svg" alt="" />
+        </div>
+
+        <div class="dessert">
+          <div class="grid_1-1-1">
+            <h1 class="ret">SIGNATUR DESSERTMENU</h1>
+            <p class="klokke">16.30-21.30</p>
+          </div>
+          <dl>
+            <dt>BANKERÅT ÆBLEKAGE</dt>
+            <dd>
+              En Dansk klassiker med et tvist; m. bærcoulis & Walcher Amaretto.
+            </dd>
+            <dd class="prices">85,-</dd>
+            <dt>MØRK CHOKOLADE MOUSSE</dt>
+            <dd>
+              Hjemmelavet chokolademousse på mørk chokolade, m. sprød
+              pistaciekrokant på toppen.
+            </dd>
+            <dd class="prices">95,-</dd>
+            <dt>JULESPECIAL RISMOUSSE</dt>
+            <dd>
+              Hjemmelavet rismoussé m. vanilje, kirsebærparfait og hvid
+              chokolade tuiulle.
+            </dd>
+            <dd class="prices">95,-</dd>
+          </dl>
+        </div>
+      </div>
+      <img class="menu_moenster" src="img/menu_pynt.svg" alt="" />
+      <div class="billede_center">
+        <h2>Menukort</h2>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_layout">
+        <div class="aabningstider">
+          <p class="beige">
+            ÅBNINGSTIDER <br />MAN-ONS 10:30-23. <br />FRE 10:30-24:00 <br />LØR
+            10:30-24:00 <br />SØN 10:30-20:00 <br />Telefon 3393 6988
+          </p>
+        </div>
+        <div class="adresse">
+          <p class="beige">
+            ADRESSE <br />
+            Ahlefeldtsgade 27-29 <br />
+            1359 København K <br />info@bankeraat.dk <br />CVR 39969920
+          </p>
+        </div>
+
+        <div class="smiley">
+          <a
+            href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk5756499"
+            ><img src="img/Sm1bg_png.png" alt="Smiley"
+          /></a>
+        </div>
+      </div>
+
     </footer>
 
-   <script src="javascript/login.js"></script>
-</body>
+      </footer>
+
+      <script src="javascript/login.js"></script>
+
+  </body>
 </html>
