@@ -6,8 +6,7 @@
   font-family: menuskrift2;
   src: url(../fonts/IndieFlower-Regular.woff2);
 }
-<<<<<<< HEAD
-=======
+
 @font-face {
   font-family: menuskrift3;
   src: url(../fonts/Itim-Regular.woff2);
@@ -19,7 +18,7 @@
 .burger-menu {
   display: none;
 }
->>>>>>> eaac73f4fdeb52db3e6d3b10bef785c9e68a9c58
+
 
 @media (max-width: 700px) {
   .croissant_h,
@@ -31,6 +30,7 @@
     text-align: center;
     margin: 0 auto;
   }
+
 
   nav {
     font-size: 1rem; /
@@ -78,6 +78,7 @@
     background-color: #c33520; 
 }
 }
+
 @media (min-width: 700px) {
   .centered {
     position: absolute;
