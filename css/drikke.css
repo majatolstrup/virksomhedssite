@@ -24,7 +24,6 @@ nav a {
     text-decoration: none;
     color: black;
 }
-
 .liste {
     display: flex;
     list-style: none;
@@ -32,7 +31,7 @@ nav a {
     padding: 0;
 }
 .liste li {
-    margin: 0 70px; 
+    margin: 0 30px; 
 }
 
 .vinglas {
