@@ -1,3 +1,8 @@
+@font-face {
+  font-family: bankeraat_overskrift;
+  src: url(../fonts/bankeraat_font_overskrift.woff2);
+}
+
 .footer_layout {
   display: flex;
   justify-content: space-between;
