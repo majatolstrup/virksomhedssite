@@ -6,6 +6,20 @@
   font-family: menuskrift2;
   src: url(../fonts/IndieFlower-Regular.woff2);
 }
+<<<<<<< HEAD
+=======
+@font-face {
+  font-family: menuskrift3;
+  src: url(../fonts/Itim-Regular.woff2);
+}
+@font-face {
+  font-family: overskrift;
+  src: url(../fonts/AnyConv.com__Këonkzàvil\ Sans\ Serif\ 2023.woff2);
+}
+.burger-menu {
+  display: none;
+}
+>>>>>>> eaac73f4fdeb52db3e6d3b10bef785c9e68a9c58
 
 @media (max-width: 700px) {
   .croissant_h,
@@ -17,6 +31,52 @@
     text-align: center;
     margin: 0 auto;
   }
+
+  nav {
+    font-size: 1rem; /
+}
+
+.liste {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #e64025;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #0048E8;
+
+}
+
+.liste li {
+  margin: 10px;
+}
+
+.liste.active {
+    display: flex;
+}
+
+.burger-menu {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff7d7; 
+    display: flex;
+   margin-right: auto;
+}
+
+.burger-menu:hover {
+    background-color: #c33520; 
+}
 }
 @media (min-width: 700px) {
   .centered {

@@ -2,6 +2,11 @@
 body {
     background-color: #FFF7D7;
 }
+
+.billede_filter{
+    filter: brightness(0); 
+}
+
 nav{
     background-color: #FFF7D7;
     display: flex;
@@ -26,7 +31,7 @@ nav a {
     padding: 0;
 }
 .liste li {
-    margin: 0 70px; 
+    margin: 0 30px; 
 }
 
 h1 {
@@ -72,8 +77,6 @@ h1 {
 .burger-menu {
     display: none;
 }
-
-
 }
 
 
@@ -83,6 +86,9 @@ h1 {
 
 body {
     background-color: #FFF7D7;
+}
+.billede_filter{
+    filter: brightness(0); 
 }
 /* nav{
     background-color: #FFF7D7;
@@ -111,7 +117,7 @@ nav a {
 } */
 
 nav {
-    font-size: 1rem; /* Adjust the font size for smaller screens if needed */
+    font-size: 1rem; /
 }
 
 .liste {
@@ -146,14 +152,13 @@ nav a {
     font-size: 1.5rem;
     cursor: pointer;
     padding: 10px;
-    color: #0048E8; /* Set the color to match your design */
+    color: #0048E8; 
     display: flex;
    margin-right: auto;
 }
 
-/* Add a hover effect */
 .burger-menu:hover {
-    background-color: #6998FF; /* Set the hover background color */
+    background-color: #6998FF; 
 }
 
 h1 {
