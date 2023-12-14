@@ -3,6 +3,11 @@ body {
     background-color: #FAF863;
     font-size: 1.5rem;
 }
+
+.billede_filter{
+    filter: brightness(0); 
+}
+
 nav {
     background-color: #FAF863;
     display: flex;
@@ -254,8 +259,6 @@ h2 {
     .logo {
         margin-right: auto; 
     }
-
-
 
     .billede_filter{
         filter: brightness(0); 
