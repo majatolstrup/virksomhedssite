@@ -6,6 +6,7 @@
   font-family: menuskrift2;
   src: url(../fonts/IndieFlower-Regular.woff2);
 }
+
 @font-face {
   font-family: menuskrift3;
   src: url(../fonts/Itim-Regular.woff2);
@@ -14,6 +15,10 @@
   font-family: overskrift;
   src: url(../fonts/AnyConv.com__Këonkzàvil\ Sans\ Serif\ 2023.woff2);
 }
+.burger-menu {
+  display: none;
+}
+
 
 @media (max-width: 700px) {
   .croissant_h,
@@ -24,6 +29,68 @@
     grid-column: 1 / -1;
     text-align: center;
     margin: 0 auto;
+  }
+
+
+  nav {
+    font-size: 1rem; /
+}
+
+.liste {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #e64025;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #0048E8;
+
+}
+
+.liste li {
+  margin: 10px;
+}
+
+.liste.active {
+    display: flex;
+}
+
+.burger-menu {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff7d7; 
+    display: flex;
+   margin-right: auto;
+}
+
+.burger-menu:hover {
+    background-color: #c33520; 
+}
+}
+
+@media (min-width: 700px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: #fff7d7;
+    font-size: 30px;
+    text-align: center;
+    padding: 2rem;
   }
 }
 
@@ -82,11 +149,11 @@ h1,
 h2 {
   color: #fff7d7;
   margin-left: 5%;
+  font-family: bankeraat_overskrift;
 }
 h1 {
   text-align: center;
   margin-right: 5%;
-  font-family: menuskrift;
 }
 
 dl {
@@ -201,7 +268,7 @@ hr {
 .klokke {
   grid-column: 3/4;
   color: #fff7d7;
-  font-family: menuskrift3;
+  font-family: bankeraat_overskrift;
 }
 
 .croissant_v img,

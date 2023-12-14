@@ -1,3 +1,8 @@
+@font-face {
+  font-family: bankeraat_overskrift;
+  src: url(../fonts/bankeraat_font_overskrift.woff2);
+}
+
 .footer_layout {
   display: flex;
   justify-content: space-between;
@@ -9,6 +14,7 @@
   color: #fff7d7;
   margin-bottom: 0;
   text-align: center;
+  margin-left: 20px;
 }
 .adresse {
   color: #fff7d7;
@@ -16,7 +22,7 @@
 }
 .smiley img {
   display: block;
-  width: 30%;
+  width: 70%;
   margin: 0 auto;
 }
 
