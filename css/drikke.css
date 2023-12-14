@@ -1,69 +1,84 @@
 @media (min-width: 600px) {
-body {
-    background-color: #FAF863;
+  body {
+    background-color: #faf863;
     font-size: 1.5rem;
-}
-nav {
-    background-color: #FAF863;
+  }
+  nav {
+    background-color: #faf863;
     display: flex;
     align-items: center;
     padding: 10px;
     font-family: menuskrift2;
     font-weight: bold;
     font-size: 1rem;
-}
-.logo {
-    margin-right: auto; 
-}
-nav a {
+  }
+  .billede_filter {
+    filter: brightness(0);
+  }
+  .logo {
+    margin-right: auto;
+  }
+  nav a {
     text-decoration: none;
     color: black;
-}
+  }
 
-.liste {
+  .liste {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-}
-.liste li {
-    margin: 0 70px; 
-}
+  }
+  .liste li {
+    margin: 0 30px;
+  }
 
-.vinglas {
+  .vinglas {
     width: 100%;
     height: auto;
-}
+  }
 
-.container {
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
-}
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 2rem;
+  }
 
-.font {
+  .font {
     width: 350px;
-    height: auto; 
-}
+    height: auto;
+  }
 
-#overskrift {
+  #overskrift {
     margin-left: 230px;
-}
-#overskrift1 {
+  }
+  #overskrift1 {
     margin-left: 140px;
-}
-#underoverskrift {
+  }
+  #underoverskrift {
     margin-left: 450px;
     margin-bottom: 1px;
     font-family: menuskrift3;
-}
-#uunderoverskrift {
+  }
+  #uunderoverskrift {
     font-family: menuskrift3;
-}
+  }
 
-/* COCKTAILS/DRINKS */
-.grid_1-1 {
+  /* COCKTAILS/DRINKS */
+  .grid_1-1 {
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -71,8 +86,8 @@ nav a {
     justify-content: center;
     text-align: center;
     align-items: flex-start;
-}
-.grid_1-1 div {
+  }
+  .grid_1-1 div {
     margin: 0 10px; /* Adjust the margin as needed */
     font-family: menuskrift;
   }
@@ -89,23 +104,23 @@ nav a {
     font-family: menuskrift2;
   }
 
-.drikke-pynt {
+  .drikke-pynt {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 12vh;
-}
-.pynt {
+  }
+  .pynt {
     width: 1000px;
     height: auto;
-}
+  }
 
-.espresso {
+  .espresso {
     width: 150px;
-}
+  }
 
-.grid_1-1-1 {
+  .grid_1-1-1 {
     margin-top: 45px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -116,9 +131,9 @@ nav a {
     /* margin-left: 150px; 
      position: relative;  */
     font-family: menuskrift2;
-}
+  }
 
-#kaffe {
+  #kaffe {
     background-image: url(../img/SVG/espresso3.svg);
     background-repeat: no-repeat;
     background-size: 8%;
@@ -126,9 +141,9 @@ nav a {
     position: relative;
     width: 100%;
     height: 100%;
-}
+  }
 
-#mælk {
+  #mælk {
     background-image: url(../img/SVG/mælkekande.svg);
     background-repeat: no-repeat;
     background-size: 8%;
@@ -136,27 +151,27 @@ nav a {
     position: relative;
     width: 100%;
     height: 100%;
-}
+  }
 
-#filter {
+  #filter {
     background-image: url(../img/SVG/filter.svg);
     background-repeat: no-repeat;
     background-size: 8%;
     background-position: 75%;
     position: relative;
     width: 100%;
-    height: 100%; 
-}
+    height: 100%;
+  }
 
-#diverse {
+  #diverse {
     background-image: url(../img/SVG/cup.svg);
     background-repeat: no-repeat;
     background-size: 8%;
     background-position: 43%;
     position: relative;
     width: 100%;
-    height: 100%; 
-}
+    height: 100%;
+  }
 
   .grid_1-2 {
     display: grid;
@@ -179,7 +194,7 @@ nav a {
     font-family: menuskrift2;
   }
   #farvepris {
-    color: #E1B629;
+    color: #e1b629;
     font: bold;
   }
   #avec {
@@ -191,59 +206,52 @@ nav a {
     position: relative;
     /* background-color: #FF8200; */
   }
-/* .grid_1-2 div {
+  /* .grid_1-2 div {
     font-size: 1.5rem;
 } */
 
-
-.læskepriser {
+  .læskepriser {
     color: red;
-}
+  }
 
-#flasker {
+  #flasker {
     margin-left: 450px;
-}
+  }
 
-.merepynt {
+  .merepynt {
     transform: rotate(-90deg);
-}
+  }
 
   /* STYLE */
- 
-h3 {
+
+  h3 {
     margin-bottom: 10px;
     /* font-size: 1.5rem; */
     font-family: menuskrift3;
     font-weight: bold;
   }
 
-h1 {
+  h1 {
     text-align: center;
-    
-}
+    font-family: bankeraat_overskrift;
+  }
 
-h2 {
-    
-    font-family: menuskrift2;
+  h2 {
+    font-family: bankeraat_overskrift;
     font-weight: 900;
-}
+  }
 
-.burger-menu {
+  .burger-menu {
     display: none;
+  }
 }
-} 
-
-
-
-
-
 
 @media (max-width: 600px) {
-    body {
-        background-color: #FAF863;
-        font-size: 1rem;
-    }
-    /* nav {
+  body {
+    background-color: #faf863;
+    font-size: 1rem;
+  }
+  /* nav {
         background-color: #FAF863;
         display: flex;
         align-items: center;
@@ -251,269 +259,267 @@ h2 {
         font-family: menuskrift2;
         font-weight: bold;
     } */
-    .logo {
-        margin-right: auto; 
-    }
+  .logo {
+    margin-right: auto;
+  }
 
+  .billede_filter {
+    filter: brightness(0);
+  }
 
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
 
-    .billede_filter{
-        filter: brightness(0); 
-    }
+  .liste {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .liste li {
+    margin: 0 70px;
+  }
 
-    nav a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .liste {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .liste li {
-        margin: 0 70px; 
-    } */
+  nav {
+    font-size: 1rem;
+  }
 
-    nav {}
-    nav {
-        font-size: 1rem;
-    }
-    
-    .liste {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background-color: #FAF863;
-       /*  z-index: 1; */
-        list-style: none;
-        padding: 0;
-    }
-    
-    .liste li {
-        margin: 10px;
-    }
+  .liste {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #faf863;
+    /*  z-index: 1; */
+    list-style: none;
+    padding: 0;
+  }
 
-    nav a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .liste.active {
-        display: flex;
-    }
-    
-    .burger-menu {
-        background: none;
-        border: none;
-        font-size: 1.5rem;
-        cursor: pointer;
-        padding: 10px;
-        color: black; /* Set the color to match your design */
-        display: flex;
-       margin-right: auto;
-    }
-    
-    /* Add a hover effect */
-    .burger-menu:hover {
-        background-color: #DEDC58; /* Set the hover background color */
-    }
-    
-    .vinglas {
-        width: 100%;
-        height: auto;
-    }
-    
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 10vh;
-    }
-    
-    .font {
-        width: 350px;
-        height: auto; 
-    }
-    
-    #overskrift1 {
-        margin-left: 140px;
-    }
-    #underoverskrift {
-       /*  margin-left: 450px; */
-        margin-bottom: 1px;
-        font-family: menuskrift3;
-    }
-    #uunderoverskrift {
-        font-family: menuskrift3;
-    }
-    
-    /* COCKTAILS/DRINKS */
-    .grid_1-1 {
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        text-align: center;
-        justify-content: center;
-        text-align: center;
-        align-items: flex-start;
-    }
-    .grid_1-1 div {
-        margin: 0 10px; /* Adjust the margin as needed */
-        font-family: menuskrift;
-      }
-      dt {
-        margin-top: 30px;
-        font-family: menuskrift3;
-        font-weight: 900;
-      }
-    
-      dd {
-        font-family: menuskrift2;
-      }
-    
-    .drikke-pynt {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 12vh;
-    }
-    .pynt {
-        width: 1000px;
-        height: auto;
-    }
-    
-    .espresso {
-        width: 150px;
-    }
-    
-    .grid_1-1-1 {
-        margin-top: 45px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        /* margin-left: 150px; 
-         position: relative;  */
-        font-family: menuskrift2;
-    }
-    
-    #kaffe {
-        background-image: url(../img/SVG/espresso3.svg);
-        background-repeat: no-repeat;
-        background-size: 8%;
-        background-position: 64%;
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    #mælk {
-        background-image: url(../img/SVG/mælkekande.svg);
-        background-repeat: no-repeat;
-        background-size: 8%;
-        background-position: 20%;
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    #filter {
-        background-image: url(../img/SVG/filter.svg);
-        background-repeat: no-repeat;
-        background-size: 8%;
-        background-position: 75%;
-        position: relative;
-        width: 100%;
-        height: 100%; 
-    }
-    
-    #diverse {
-        background-image: url(../img/SVG/cup.svg);
-        background-repeat: no-repeat;
-        background-size: 8%;
-        background-position: 43%;
-        position: relative;
-        width: 100%;
-        height: 100%; 
-    }
-    
-      .grid_1-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1%;
-        margin: 0 auto;
+  .liste li {
+    margin: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .liste.active {
+    display: flex;
+  }
+
+  .burger-menu {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    color: black; /* Set the color to match your design */
+    display: flex;
+    margin-right: auto;
+  }
+
+  /* Add a hover effect */
+  .burger-menu:hover {
+    background-color: #dedc58; /* Set the hover background color */
+  }
+
+  .vinglas {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .font {
+    width: 350px;
+    height: auto;
+  }
+
+  #overskrift1 {
+    margin-left: 140px;
+  }
+  #underoverskrift {
+    /*  margin-left: 450px; */
+    margin-bottom: 1px;
+    font-family: menuskrift3;
+  }
+  #uunderoverskrift {
+    font-family: menuskrift3;
+  }
+
+  /* COCKTAILS/DRINKS */
+  .grid_1-1 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+  }
+  .grid_1-1 div {
+    margin: 0 10px; /* Adjust the margin as needed */
+    font-family: menuskrift;
+  }
+  dt {
+    margin-top: 30px;
+    font-family: menuskrift3;
+    font-weight: 900;
+  }
+
+  dd {
+    font-family: menuskrift2;
+  }
+
+  .drikke-pynt {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+  }
+  .pynt {
+    width: 1000px;
+    height: auto;
+  }
+
+  .espresso {
+    width: 150px;
+  }
+
+  .grid_1-1-1 {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
-        /* margin-left: 450px; */
-        font-family: menuskrift2;
-      }
-    
-      .grid_1-4 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 1%;
-        margin: 0 auto;
-        /* margin-left: 250px; */
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        font-family: menuskrift2;
-      }
-      #farvepris {
-        color: #E1B629;
-        font: bold;
-      }
-      /* #avec {
+    /* margin-left: 150px; 
+         position: relative;  */
+    font-family: menuskrift2;
+  }
+
+  #kaffe {
+    background-image: url(../img/SVG/espresso3.svg);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 64%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  #mælk {
+    background-image: url(../img/SVG/mælkekande.svg);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 20%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  #filter {
+    background-image: url(../img/SVG/filter.svg);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 75%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  #diverse {
+    background-image: url(../img/SVG/cup.svg);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 43%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 450px; */
+    font-family: menuskrift2;
+  }
+
+  .grid_1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1%;
+    margin: 0 auto;
+    /* margin-left: 250px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: menuskrift2;
+  }
+  #farvepris {
+    color: #e1b629;
+    font: bold;
+  }
+  /* #avec {
         background-image: url(../img/SVG/merepynt6.svg);
         background-repeat: no-repeat;
         background-size: 2.4%;
         /* background-position: 49.7%; */
-      /*   background-position: 5%;
+  /*   background-position: 5%;
         position: relative; */
-        /* background-color: #FF8200; */
-    /* .grid_1-2 div {
+  /* background-color: #FF8200; */
+  /* .grid_1-2 div {
         font-size: 1.5rem;
     } */
-    
-    
-    .læskepriser {
-        color: red;
-    }
-    
-    /* #flasker {
+
+  .læskepriser {
+    color: red;
+  }
+
+  /* #flasker {
         margin-left: 450px;
     } */
-    
-    .merepynt {
-        transform: rotate(-90deg);
-    }
-    
-      /* STYLE */
-     
-    h3 {
-        margin-bottom: 10px;
-        /* font-size: 1.5rem; */
-        font-family: menuskrift3;
-        font-weight: bold;
-      }
-    
-    h1 {
-        text-align: center;
-        
-    }
-    
-    h2 {
-        
-        font-family: menuskrift2;
-        font-weight: 900;
-    }
-    } 
+
+  .merepynt {
+    transform: rotate(-90deg);
+  }
+
+  /* STYLE */
+
+  h3 {
+    margin-bottom: 10px;
+    /* font-size: 1.5rem; */
+    font-family: menuskrift3;
+    font-weight: bold;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: bankeraat_overskrift;
+  }
+
+  h2 {
+    font-family: bankeraat_overskrift;
+    font-weight: 900;
+  }
+  img {
+    max-width: 500px;
+  }
+}
