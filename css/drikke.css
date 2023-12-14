@@ -12,9 +12,9 @@
     font-weight: bold;
     font-size: 1rem;
   }
-  .billede_filter{
-    filter: brightness(0); 
-}
+  .billede_filter {
+    filter: brightness(0);
+  }
   .logo {
     margin-right: auto;
   }
@@ -43,6 +43,18 @@
     justify-content: center;
     align-items: center;
     height: 10vh;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 2rem;
   }
 
   .font {
@@ -269,8 +281,7 @@
   .liste li {
     margin: 0 70px;
   }
-  */ nav {
-  }
+
   nav {
     font-size: 1rem;
   }
