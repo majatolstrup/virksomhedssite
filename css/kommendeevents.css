@@ -67,6 +67,15 @@ p{
     padding-right: 20%;
     padding-top: 10%;
     padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+.beige{
+    color: rgba(228, 221, 211, 1);
+    font-family: menuskrift2;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
 }
 
 .centered {
