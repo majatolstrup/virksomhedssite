@@ -12,6 +12,9 @@
     font-weight: bold;
     font-size: 1rem;
   }
+  .billede_filter{
+    filter: brightness(0); 
+}
   .logo {
     margin-right: auto;
   }
@@ -27,7 +30,7 @@
     padding: 0;
   }
   .liste li {
-    margin: 0 70px;
+    margin: 0 30px;
   }
 
   .vinglas {
