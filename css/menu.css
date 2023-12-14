@@ -33,31 +33,30 @@
     font-size: 1rem; /
 }
 
-.header_position {
+.liste {
     display: none;
     flex-direction: column;
     position: absolute;
     top: 70px;
     left: 0;
     width: 100%;
-    background-color: #FFF7D7;
+    background-color: #e64025;
     z-index: 1;
     list-style: none;
     padding: 0;
 }
 
-
-nav a {
+.nav a {
     text-decoration: none;
     color: #0048E8;
 
 }
 
-.nav a li {
+.liste li {
   margin: 10px;
 }
 
-.nav a.active {
+.liste.active {
     display: flex;
 }
 
