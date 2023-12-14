@@ -117,7 +117,7 @@ nav a {
 } */
 
 nav {
-    font-size: 1rem; /* Adjust the font size for smaller screens if needed */
+    font-size: 1rem; /
 }
 
 .liste {
@@ -152,14 +152,13 @@ nav a {
     font-size: 1.5rem;
     cursor: pointer;
     padding: 10px;
-    color: #0048E8; /* Set the color to match your design */
+    color: #0048E8; 
     display: flex;
    margin-right: auto;
 }
 
-/* Add a hover effect */
 .burger-menu:hover {
-    background-color: #6998FF; /* Set the hover background color */
+    background-color: #6998FF; 
 }
 
 h1 {
